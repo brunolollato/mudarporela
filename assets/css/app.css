@@ -12484,11 +12484,16 @@ footer footer{
 footer footer > div.row{
 	margin: 0;
 }
+section{
+	position: relative;
+}
 .origami{
     position: absolute;
-    top: 165%;
+    top: 25%;
     left: -5%;
-    z-index: 10
+    z-index: 10;
+    height: 500px;
+	overflow: visible;
 }
 #slide-out{
 	padding-top: 100px;
